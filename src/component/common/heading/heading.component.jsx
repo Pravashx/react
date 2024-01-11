@@ -1,3 +1,12 @@
+import styled from "styled-components"
+
+export const Title = styled.h1`
+    color: #0019000
+`
+export const Divider = styled.hr`
+    border-color: #001900
+`
+
 export const Heading = ({type, value})=>{
     switch(type){
         case "h1":
